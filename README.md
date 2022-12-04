@@ -259,6 +259,8 @@ Authentication ways:
 * Jenkins CLI jar
 * CLI over SSH
 
+[Security - Jenkins](https://docs.vuestorefront.io/v2/integrations/](https://www.jenkins.io/doc/developer/security/)
+
 ------------------------------------------------------------------------------
 ## Reliability Requirements in Open Source Projects
 ### Explored by: Rakeen Zia
@@ -284,3 +286,5 @@ Common test patterns include:
 Data used in testing is either from a dummy SCM or from within a pipeline.
 
 There is also Performance testing in Jenkins to make sure that performance requirements such as speed and return time meet the standard.
+
+[Testing - Jenkins](https://docs.vuestorefront.io/v2/integrations/](https://www.jenkins.io/doc/developer/security/](https://www.jenkins.io/doc/developer/testing/)
