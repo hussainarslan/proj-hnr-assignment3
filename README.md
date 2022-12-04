@@ -191,7 +191,7 @@ this can be found on the following link
 
 [Optimizing images | Vue Storefront 2](https://docs.vuestorefront.io/v2/performance/optimizing-images.html)
 
-### Issue 10: Usage of Cache
+### Issue 11: Usage of Cache
 * **What is cache?**
 
 A cache is a software or hardware component aimed at storing data so that future requests for 
@@ -207,3 +207,16 @@ Consequently, customers will never see the correct information on their cart or 
 
 [Best Caching Plugins for WooCommerce - CommerceGurus](https://www.commercegurus.com/best-woocommerce-caching-plugins/#:~:text=WooCommerce%2C%20on%20the%20other%20hand,that%20was%20cached%20each%20time.)
 
+### Issue 12: Usage of Content Delivery Network
+* **What are content delivery networks?**
+
+Content Delivery Networks(CDNs can help protect a site by providing TLS and/or SSL certificates that ensure a high standard of authentication and encryption. In 
+addition, CDNs can help protect your websites and apps through a Web Application Firewall(WAF). A CDN refers to a geographically distributed group of servers that work 
+together to provide fast delivery of Internet content.
+
+* **Content Delivery Networks(CDNs in VueStorefront)
+
+VueStrorefront uses Google Cloud CDN to improve site performance as it supports modern protocols initially developed at Google, like HTTP/2 and QUIC. Google Cloud CDN 
+enables websites to serve millions of requests per day seamlessly taking care of delivering superb use experience across all touchpoints.
+
+[Features | Vue Storefront Cloud](https://docs.vuestorefront.io/cloud/v2/in-a-nutshell/features.html)
