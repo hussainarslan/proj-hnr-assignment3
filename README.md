@@ -79,6 +79,14 @@ Versions of the system could possibly have altered functionality, improved perfo
    - Chores
 ![image link](https://github.com/karissa-kaal/random/blob/main/StorefrontUI1.jpg?raw=true)
 
+### Issue 17: Explore [Ansible](https://docs.ansible.com/ansible-core/devel/dev_guide/index.html) Issue Management
+* Ansible has **606** [labels](https://github.com/ansible/ansible/labels) to differentiate between their issues.  
+* **632** issues are open and 30,350 are closed
+![image link](https://github.com/karissa-kaal/random/blob/main/Ansible1.jpg?raw=true)
+* Issues also have tasks to better track the progress of an issue.
+![image link](https://github.com/karissa-kaal/random/blob/main/Ansible2.jpg?raw=true)
+* When the person checks a checkbox, a task will be completed. These checkboxes are tasks.
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
