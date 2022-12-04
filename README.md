@@ -111,6 +111,7 @@ can pick a new technology stack. Similarly, when making major changes to an exis
 can rewrite it using a new technology stack.
 
 * **Microservices in WooCommerce**
+
 Considering all the information above about microservices, WooCommerce has implemented these to 
 supplement the user experience and make it easier to add a lot of different functionalities to 
 their product by using them. Some of these examples include eBay integration for WooCommerce, 
@@ -126,14 +127,47 @@ WooSidebars, In Stock Notifications, Pre-Orders and Google Listings & Ads.
 
 ### Issue 4: Extensibility
 * **What is Extensibility?**
+
 Extensibility is a software engineering and systems design principle that provides for future growth. Extensibility is a measure of the ability to extend a system and 
 the level of effort required to implement the extension. Extensions can be through the addition of new functionality or through modification of existing functionality. 
 The principle provides for enhancements without impairing existing system functions.
 
 An extensible system is one that is not affected by modifications in functionality and retains current behaviour
 
-* **Extensibility in VueStorefron**
-Vue Storefront has a lot of integrations which add on to the basic functionality of vue storefront and their addition does not affect the base functionality. All of 
-these make Vue Storefront highly extensible. These integrations are available on the link below:
+* **Extensibility in VueStorefront**
+
+VueStorefront has a lot of integrations which add on to the basic functionality of VueStorefront 
+and their addition does not affect the base functionality. All of these make Vue Storefront 
+highly extensible. These integrations are available on the link below:
 
 [Integrations - VueStorefront](https://docs.vuestorefront.io/v2/integrations/)
+
+### Issue 5: Reusability
+* **What is Reusability?**
+
+Reusability is the use of existing assets in some form within the software product development 
+process. These assets are products and by-products of the software development life cycle and 
+include code, software components, test suites, designs and documentation. The opposite concept 
+of reusability is leverage, which modifies existing assets as needed to meet specific system 
+requirements.
+
+* **Reusability in Ansible**
+
+Ansible has implemented reusability in a very intuitive and effective way. Ansible offers two 
+ways to reuse files and roles in a playbook: dynamic and static. Ansible offers four 
+distributed, reusable artefact: variable files, task files, playbooks, and roles.
+
+1. A variables file contains only variables.
+2. A task file contains only tasks.
+3. A playbook contains at least one play, and may contain variables, tasks, and other content. 
+You can reuse tightly focused playbooks, but you can only reuse them statically, not 
+dynamically. 
+4. A role contains a set of related tasks, variables, defaults, handlers, and even modules or 
+other plugins in a defined fil-tree. Unlike variable files, task files, or playbooks, roles can 
+be easily uploaded and shared through Ansible Galaxy.
+
+In ansible, you can even incorporate multiple playbooks into a main playbook. However, you can 
+only use imports to reuse playbooks. Importing incorporates playbooks in other playbooks 
+statically. Ansible runs the plays and tasks in each imported playbook in the order they are 
+listed, just as if they had been defined directly in the main playbook.
+
