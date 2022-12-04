@@ -182,7 +182,7 @@ Lazy loading is the practice of delaying load or initialization of resources or 
 they’re actually needed to improve performance or save system resources. Lazy loading is a 
 technique used to prevent or delay the loading of non-critical resources until they are needed. 
 
-* **Usage of lazy loadin in VueStorefront**
+* **Usage of lazy loading in VueStorefront**
 
 In vue storefront lazy loading can be used for different types of resources, but in the case of 
 images, the goal is to lazily load everything that is not visible to the user within the initial 
@@ -190,3 +190,20 @@ viewport. All other images can be loaded when the user scrolls down the page. A 
 this can be found on the following link
 
 [Optimizing images | Vue Storefront 2](https://docs.vuestorefront.io/v2/performance/optimizing-images.html)
+
+### Issue 10: Usage of Cache
+* **What is cache?**
+
+A cache is a software or hardware component aimed at storing data so that future requests for 
+same data can be served faster. The main reason why caching was born is that accessing data from 
+persistent memories takes a considerable amount of time
+
+* ** Usage of cache in WooCommerce**
+
+WooCommerce adds dynamic pages to your website including the Cart, Checkout and My Account page. 
+When you cache content on your website, it’s saved to the user’s device which means it’s no 
+longer dynamic. Their web browser will serve them the same page that was cached each time. 
+Consequently, customers will never see the correct information on their cart or checkout pages.
+
+[Best Caching Plugins for WooCommerce - CommerceGurus](https://www.commercegurus.com/best-woocommerce-caching-plugins/#:~:text=WooCommerce%2C%20on%20the%20other%20hand,that%20was%20cached%20each%20time.)
+
