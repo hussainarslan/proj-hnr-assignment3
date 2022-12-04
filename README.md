@@ -171,3 +171,22 @@ only use imports to reuse playbooks. Importing incorporates playbooks in other p
 statically. Ansible runs the plays and tasks in each imported playbook in the order they are 
 listed, just as if they had been defined directly in the main playbook.
 
+------------------------------------------------------------------------------
+## Performance Optimizations in Open Source Projects
+### Explored by: Hussain Arslan
+
+### Issue 10: Usage of Lazy Loading
+* **What is lazy loading?**
+
+Lazy loading is the practice of delaying load or initialization of resources or objects until 
+they’re actually needed to improve performance or save system resources. Lazy loading is a 
+technique used to prevent or delay the loading of non-critical resources until they are needed. 
+
+* **Usage of lazy loadin in VueStorefront**
+
+In vue storefront lazy loading can be used for different types of resources, but in the case of 
+images, the goal is to lazily load everything that is not visible to the user within the initial 
+viewport. All other images can be loaded when the user scrolls down the page. A code snippet for 
+this can be found on the following link
+
+[Optimizing images | Vue Storefront 2](https://docs.vuestorefront.io/v2/performance/optimizing-images.html)
