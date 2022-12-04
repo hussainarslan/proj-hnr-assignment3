@@ -123,3 +123,17 @@ microservices. Furthermore, there are some APIs used by WooCommerce. These inclu
 WooSidebars, In Stock Notifications, Pre-Orders and Google Listings & Ads.
 
 [Extensions - API Manager - WooCommerce](https://woocommerce.com/documentation/woocommerce-extensions/api-manager/)
+
+### Issue 4: Extensibility
+* **What is Extensibility?**
+Extensibility is a software engineering and systems design principle that provides for future growth. Extensibility is a measure of the ability to extend a system and 
+the level of effort required to implement the extension. Extensions can be through the addition of new functionality or through modification of existing functionality. 
+The principle provides for enhancements without impairing existing system functions.
+
+An extensible system is one that is not affected by modifications in functionality and retains current behaviour
+
+* **Extensibility in VueStorefron**
+Vue Storefront has a lot of integrations which add on to the basic functionality of vue storefront and their addition does not affect the base functionality. All of 
+these make Vue Storefront highly extensible. These integrations are available on the link below:
+
+[Integrations - VueStorefront](https://docs.vuestorefront.io/v2/integrations/)
