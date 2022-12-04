@@ -35,6 +35,19 @@ Group Members:
 * In order to meet the deadline, meeting was brief and everyone was asked to work on their own tasks and catch up on 4/12/22 evening.
 
 ------------------------------------------------------------------------------
+
+## Meeting 3 - 4/12/22
+###  Attendees
+* Hussain
+* Noureen
+* Rakeen
+
+###  Meeting Notes
+* Merged our closed issues
+* Discussed what we learnt
+* How we will implement in future projects?
+
+------------------------------------------------------------------------------
 ## Process Requirements in Open Sources Projects 
 ### Explored by: Noureen Fatima
 
