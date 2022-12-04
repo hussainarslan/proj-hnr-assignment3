@@ -64,6 +64,12 @@ Versions of the system could possibly have altered functionality, improved perfo
 * **Conclusion:** Webswing manages its releases and versions very well. Everything is organized and easy to understand. Everything is well documented.
 ![image link](https://github.com/karissa-kaal/random/blob/main/Webswing1.jpg?raw=true)
 
+### Issue 13: Explore Versioning in Open CV
+* All the releases are available to download, also the upcoming releases are also listed.
+* Not easy to differentiate between different releases and versions. 
+* Each version is documented properly.
+![image link](https://github.com/karissa-kaal/random/blob/main/OpenCV1.jpg?raw=true)
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
