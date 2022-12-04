@@ -35,10 +35,10 @@ Group Members:
 * In order to meet the deadline, meeting was brief and everyone was asked to work on their own tasks and catch up on 4/12/22 evening.
 
 ------------------------------------------------------------------------------
-##Process Requirements in Open Sources Projects 
-###Explored by: Noureen Fatima
+## Process Requirements in Open Sources Projects 
+### Explored by: Noureen Fatima
 
-###Issue 1: Study about Versoning and Release Management 
+### Issue 1: Study about Versoning and Release Management 
 Identification and tracking of system versions are key components of the version and release management process. The purpose of such processes is to **prevent the development team from unintentionally changing versions of a system that may be retrieved when needed.**
 
 Versions of the system could possibly have altered functionality, improved performance, or fixed software bugs. Although they may work similarly, several versions may be made for various hardware or software configurations.
