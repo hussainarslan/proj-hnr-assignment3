@@ -198,7 +198,7 @@ A cache is a software or hardware component aimed at storing data so that future
 same data can be served faster. The main reason why caching was born is that accessing data from 
 persistent memories takes a considerable amount of time
 
-* ** Usage of cache in WooCommerce**
+* **Usage of cache in WooCommerce**
 
 WooCommerce adds dynamic pages to your website including the Cart, Checkout and My Account page. 
 When you cache content on your website, it’s saved to the user’s device which means it’s no 
