@@ -91,6 +91,11 @@ Versions of the system could possibly have altered functionality, improved perfo
 * **41** Labels are used to manage issues as in Ansible 
 ![image link](https://github.com/karissa-kaal/random/blob/main/Jenkins1.jpg?raw=true)
 
+### Issue 31: Study Open Source Contribution Req. for developers
+[**Ansible**](https://docs.ansible.com/ansible/devel/dev_guide/developing_modules_checklist.html)
+
+![image](https://user-images.githubusercontent.com/82564664/205503811-505326fb-9f41-4155-9fd8-560a56360993.png)
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
