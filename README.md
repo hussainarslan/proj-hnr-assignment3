@@ -21,3 +21,15 @@ Group Members:
 * Explored open source projects to study these requirements
 
 ------------------------------------------------------------------------------
+
+## Meeting 2 - 3/12/22
+###  Attendees
+* Hussain
+* Noureen
+* Rakeen
+
+###  Meeting Notes
+* Resolved initial queries
+* Discussed what we have learnt
+* Everyone explained their learnings
+* In order to meet the deadline, meeting was brief and everyone was asked to work on their own tasks and catch up on 4/12/22 evening.
