@@ -214,7 +214,7 @@ Content Delivery Networks(CDNs can help protect a site by providing TLS and/or S
 addition, CDNs can help protect your websites and apps through a Web Application Firewall(WAF). A CDN refers to a geographically distributed group of servers that work 
 together to provide fast delivery of Internet content.
 
-* **Content Delivery Networks(CDNs in VueStorefront)
+* **Content Delivery Networks(CDNs in VueStorefront)**
 
 VueStrorefront uses Google Cloud CDN to improve site performance as it supports modern protocols initially developed at Google, like HTTP/2 and QUIC. Google Cloud CDN 
 enables websites to serve millions of requests per day seamlessly taking care of delivering superb use experience across all touchpoints.
