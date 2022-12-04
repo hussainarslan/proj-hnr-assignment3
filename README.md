@@ -87,6 +87,10 @@ Versions of the system could possibly have altered functionality, improved perfo
 ![image link](https://github.com/karissa-kaal/random/blob/main/Ansible2.jpg?raw=true)
 * When the person checks a checkbox, a task will be completed. These checkboxes are tasks.
 
+### Issue 22: Explore [Jenkins](https://www.jenkins.io/doc/developer/) Issue Management
+* **41** Labels are used to manage issues as in Ansible 
+![image link](https://github.com/karissa-kaal/random/blob/main/Jenkins1.jpg?raw=true)
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
