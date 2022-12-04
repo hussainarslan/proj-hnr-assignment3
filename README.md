@@ -258,3 +258,71 @@ VueStrorefront uses Google Cloud CDN to improve site performance as it supports 
 enables websites to serve millions of requests per day seamlessly taking care of delivering superb use experience across all touchpoints.
 
 [Features | Vue Storefront Cloud](https://docs.vuestorefront.io/cloud/v2/in-a-nutshell/features.html)
+
+------------------------------------------------------------------------------
+## Security Requirements in Open Source Projects
+### Explored by: Rakeen Zia
+
+### Issue 5: What is Security?
+In Software Engineering terms, Security is defined as an ongoing process involving people and practices, and ensuring application confidentiality, integrity and availability. Security is the most effective when it is properly planned for and integrated within a software development lifecycle.
+
+The basic guiding principles to software security are as follows and their implementation is also very important:
+
+* Protection from disclosure
+* Protection from alteration
+* Protection from destruction
+* Who is making the request
+* What rights and privileges does the requester have
+* Ability to build historical evidence
+* Management of configuration, sessions and errors/exceptions
+
+### Issue 20: Exploring security implementation in Jenkins
+Jenkins has four security methods to make sure that the administrator of Jenkins can control who gets access to what specific parts of Jenkins. There as follows:
+* Permissions
+* Authentication:
+* When a thread runs in Jenkins, it will always have an authentication object attached to it which will represent the user which thread is currently serving.
+* ACL(deciding whether authentication object carried by thread has permission)
+* AccessControlled(Implemented by an object that owns ACL)
+ 
+There are also plugins which do certain things that protect certain web methods. The ways to protect web methods are as follows:
+* Identity certain operations in code that can cause change in state of server or disclose private information. These methods should perform checkPermission.
+* Identify nearest AccessControlled objects to check  check permissions with.
+* Identify the Permission object to use.
+ 
+Jenkins will also change page rendering according to the permissions of the user. If a user doesn't have relevant permissions then certain elements of the page will not load for the user.
+ 
+Authentication ways:
+* Web UI
+* REST API(login/password)
+* Jenkins CLI jar
+* CLI over SSH
+
+[Security - Jenkins](https://docs.vuestorefront.io/v2/integrations/](https://www.jenkins.io/doc/developer/security/)
+
+------------------------------------------------------------------------------
+## Reliability Requirements in Open Source Projects
+### Explored by: Rakeen Zia
+
+### Issue 19: What is Reliability?
+Software Reliability means Operational reliability. It is described as the ability of a system or component to perform its required functions under static conditions for a specific period.
+Software Reliability is an essential connection of software quality, composed with functionality, usability, performance, serviceability, capability, installability, maintainability, and documentation. Software Reliability is hard to achieve because the complexity of software turns out to be high. While any system with a high degree of complexity, containing software, will be hard to reach a certain level of reliability, system developers tend to push complexity into the software layer, with the speedy growth of system size and ease of doing so by upgrading the software.
+
+### Issue 26: Exploring reliability in Jenkins
+Jenkins has implemented rigorous testing to make sure that reliability standards are met. Jenkins comes with a test harness which is based on JUnit test framework which provides following features:
+* Automated setup and teardown of the environment allowing tests to run in a clean environment.
+* Helper classes and methods
+* Declarative annotations to specify environment test method will use
+* Direct access to Jenkins object model
+* HtmlUnit support allowing to test webUI interaction
+
+All tests must be placed in standard location of maven projects which is src/test/java/
+
+Tests can be run from either the command line by typing ‘mvn test’ or through the use of an IDE.
+
+Common test patterns include:
+* Configuration Round-Trip Testing where users have to configure project via the web interface
+Data used in testing is either from a dummy SCM or from within a pipeline.
+
+There is also Performance testing in Jenkins to make sure that performance requirements such as speed and return time meet the standard.
+
+[Testing - Jenkins](https://docs.vuestorefront.io/v2/integrations/](https://www.jenkins.io/doc/developer/security/](https://www.jenkins.io/doc/developer/testing/)
