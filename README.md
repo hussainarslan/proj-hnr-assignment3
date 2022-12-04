@@ -63,3 +63,63 @@ Versions of the system could possibly have altered functionality, improved perfo
 * Moreover all the major changes are mentioned. 
 * **Conclusion:** Webswing manages its releases and versions very well. Everything is organized and easy to understand. Everything is well documented.
 ![image link](https://github.com/karissa-kaal/random/blob/main/Webswing1.jpg?raw=true)
+
+------------------------------------------------------------------------------
+##Architectural and Component Level Modularity in Open Source Projects
+###Explored by: Hussain Arslan
+
+###Issue 3: Microservices
+* **What are microservices?**
+Microservices are an architectural and organisational approach to software development where software is composed of small independent services that communicate over
+well-defined APIs. These services are owned by small, self-contained teams.
+
+* **Benefits of microservices**
+1. Highly maintainable and testable - enables rapid and frequent development and deployment
+
+2. Loosely coupled with other services - enables a team to work independently the majority of 
+time on their service(s) without being impacted by changes to other services and without 
+affecting other services
+
+3. Independently deployable - enables a team to deploy their service without having to 
+coordinate with other teams
+
+4. Capable of being developed by a small team - essential for high productivity by avoiding the 
+high communication head of large teams
+
+5. Enables the continuous delivery and deployment of large, complex applications.
+   -Improved maintainability - each service is relatively small and so is easier to understand 
+   and change
+   -Better testability - services are smaller and faster to test
+   -Better deployability - services can be deployed independently
+   -It enables you to organise the development effort around multiple, autonomous teams. Each 
+   (so called two pizza) team owns and is responsible for one or more services. Each team can 
+   develop, test, deploy and scale their services independently of all of the other teams.
+
+6. Each microservice is relatively small:
+   -Easier for a developer to understand
+   -The IDE is faster making developers more productive
+   -The application starts faster, which makes developers more productive, and speeds up 
+   deployments
+
+7. Improved fault isolation. For example, if there is a memory leak in one service then only 
+that service will be affected. The other services will continue to handle requests. In 
+comparison, one misbehaving component of a monolithic architecture can bring down the entire 
+system.
+
+8. Eliminates any long-term commitment to a technology stack. When developing a new service you 
+can pick a new technology stack. Similarly, when making major changes to an existing service you 
+can rewrite it using a new technology stack.
+
+* **Microservices in WooCommerce**
+Considering all the information above about microservices, WooCommerce has implemented these to 
+supplement the user experience and make it easier to add a lot of different functionalities to 
+their product by using them. Some of these examples include eBay integration for WooCommerce, 
+estimated delivery date and time and even currency switcher. 
+
+[Plugins - WooCommerce - WooCommerce](https://woocommerce.com/documentation/plugins/woocommerce/)
+
+Above is a link for some plugins that are used by WooCommerce and may be considered 
+microservices. Furthermore, there are some APIs used by WooCommerce. These include Stripe, 
+WooSidebars, In Stock Notifications, Pre-Orders and Google Listings & Ads.
+
+[Extensions - API Manager - WooCommerce](https://woocommerce.com/documentation/woocommerce-extensions/api-manager/)
