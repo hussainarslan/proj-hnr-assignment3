@@ -56,7 +56,7 @@ Versions of the system could possibly have altered functionality, improved perfo
 
 * **Change Oriented Identification:** In attribute-based identification, each component is referred to by its name, but it also has a connection to one or more modification requests. Consequently, it is presumptive that each version of a component was developed in response to one or more change requests. Change requests that pertain to components are used to identify a component's version.
 
-### Issue 9: Explore versioning in Webswing
+### Issue 9: Explore versioning in [Webswing](https://www.webswing.org/docs)
 * All the releases are accessible on the website. For example, from release **20.1 to 22.2**.
 * Not only each release is mentioned, but also all installation guides, and release notes are present. 
 * Dates are also mentioned in each version’s release.
@@ -64,11 +64,20 @@ Versions of the system could possibly have altered functionality, improved perfo
 * **Conclusion:** Webswing manages its releases and versions very well. Everything is organized and easy to understand. Everything is well documented.
 ![image link](https://github.com/karissa-kaal/random/blob/main/Webswing1.jpg?raw=true)
 
-### Issue 13: Explore Versioning in Open CV
+### Issue 13: Explore Versioning in [Open CV](https://docs.opencv.org/)
 * All the releases are available to download, also the upcoming releases are also listed.
 * Not easy to differentiate between different releases and versions. 
 * Each version is documented properly.
 ![image link](https://github.com/karissa-kaal/random/blob/main/OpenCV1.jpg?raw=true)
+
+### Issue 15: Explore Versioning in [StoreFront UI](https://docs.storefrontui.io/?path=/docs/welcome--page)
+* Storefront UI has Change Log documented for each release, which is a good practice.
+* The Change Log includes 
+   - Breaking Changes
+   - Features
+   - Fixes
+   - Chores
+![image link](https://github.com/karissa-kaal/random/blob/main/StorefrontUI1.jpg?raw=true)
 
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
