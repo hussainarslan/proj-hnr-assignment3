@@ -103,6 +103,19 @@ Versions of the system could possibly have altered functionality, improved perfo
 ![image](https://github.com/karissa-kaal/random/blob/main/Ansible4.jpg?raw=true)
 
 ------------------------------------------------------------------------------
+## Documentation Needs in Open Source Projects
+### Explored by: Noureen Fatima
+
+### Issue 40: Exploring User Manual
+[Jenkins](https://www.jenkins.io/doc/book/getting-started/)
+
+* Jenkins User Manual can be easily traversed and studied. 
+* All the given points are well explained and some include tutorials too.
+
+![image](https://user-images.githubusercontent.com/82564664/205505114-c8a344f8-ebaa-4ce9-adaf-90c710b06c75.png)
+
+
+------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
 
