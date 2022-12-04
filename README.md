@@ -96,6 +96,12 @@ Versions of the system could possibly have altered functionality, improved perfo
 
 ![image](https://user-images.githubusercontent.com/82564664/205503811-505326fb-9f41-4155-9fd8-560a56360993.png)
 
+### Issue 32: 
+* In Ansible, the pull requests have **85** checks to fulfill. If it passes the checks, a **green tick** is displayed, else a **red cross** is displayed.
+* There are certain labels that bring attention to the issues that need to be addressed or verified.
+
+![image](https://github.com/karissa-kaal/random/blob/main/Ansible4.jpg?raw=true)
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
