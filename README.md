@@ -65,10 +65,10 @@ Versions of the system could possibly have altered functionality, improved perfo
 ![image link](https://github.com/karissa-kaal/random/blob/main/Webswing1.jpg?raw=true)
 
 ------------------------------------------------------------------------------
-##Architectural and Component Level Modularity in Open Source Projects
-###Explored by: Hussain Arslan
+## Architectural and Component Level Modularity in Open Source Projects
+### Explored by: Hussain Arslan
 
-###Issue 3: Microservices
+### Issue 3: Microservices
 * **What are microservices?**
 Microservices are an architectural and organisational approach to software development where software is composed of small independent services that communicate over
 well-defined APIs. These services are owned by small, self-contained teams.
@@ -87,18 +87,18 @@ coordinate with other teams
 high communication head of large teams
 
 5. Enables the continuous delivery and deployment of large, complex applications.
-   -Improved maintainability - each service is relatively small and so is easier to understand 
+   - Improved maintainability - each service is relatively small and so is easier to understand 
    and change
-   -Better testability - services are smaller and faster to test
-   -Better deployability - services can be deployed independently
-   -It enables you to organise the development effort around multiple, autonomous teams. Each 
+   - Better testability - services are smaller and faster to test
+   - Better deployability - services can be deployed independently
+   - It enables you to organise the development effort around multiple, autonomous teams. Each 
    (so called two pizza) team owns and is responsible for one or more services. Each team can 
    develop, test, deploy and scale their services independently of all of the other teams.
 
 6. Each microservice is relatively small:
-   -Easier for a developer to understand
-   -The IDE is faster making developers more productive
-   -The application starts faster, which makes developers more productive, and speeds up 
+   - Easier for a developer to understand
+   - The IDE is faster making developers more productive
+   - The application starts faster, which makes developers more productive, and speeds up 
    deployments
 
 7. Improved fault isolation. For example, if there is a memory leak in one service then only 
