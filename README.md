@@ -125,6 +125,15 @@ Jenkins smartly provides installation guidelines for different environments incl
 
 ![image](https://user-images.githubusercontent.com/82564664/205505499-982b5487-41b6-4d89-aca7-c32d8f9c75af.png)
 
+### Issue 42: Exploring Development/Extension Document
+
+[Ansible](https://docs.ansible.com/ansible-core/devel/dev_guide/index.html)
+
+[Woocommerce](https://woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/)
+
+[Teammates](https://teammates.github.io/teammates/setting-up.html)
+
+Step wise development guidelines are provided.
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
