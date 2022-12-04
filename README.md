@@ -134,6 +134,11 @@ Jenkins smartly provides installation guidelines for different environments incl
 [Teammates](https://teammates.github.io/teammates/setting-up.html)
 
 Step wise development guidelines are provided.
+
+### Issue 43: Exploring Tutorials
+[StorFront UI Tutorial](https://youtu.be/e2ysjL5G77Y)
+[Jenkins](https://youtu.be/yfjtMIDgmfs)
+
 ------------------------------------------------------------------------------
 ## Architectural and Component Level Modularity in Open Source Projects
 ### Explored by: Hussain Arslan
